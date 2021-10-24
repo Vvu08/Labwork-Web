@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            min-width: 1024px;
+            max-width: 1920px;
+            margin:0;
+            padding:0;
+        }
+        #top_bar{
+            width:100%;
+            height:150px;
+            background-color:#000000;
+        }
+        #logo{
+            margin-top: 0;
+            margin-left: 100px;
+            width: 150px;
+        }
+        #zmist li { display: inline; }
+
+        #zmist {
+            text-align: right;
+            padding: 50px;
+        }
+        #zmist a{
+            width: 70px;
+            color: #fff;
+            text-decoration: none;
+            font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 20px;
+            margin-left: 30px;
+            margin-top: 35px;
+            text-align: center
+        }
+        #zmist a:hover {color: #cd4949;}
+
+        img{
+            float: left;
+            margin-top: 50px;
+            margin-left: 300px;
+            width: 20%;
+        }
+        .pl2_name{
+            float: right;
+            margin-right: 250px;
+            margin-top: 50px;
+            width: 500px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        .pl2_bio{
+            margin-right: 200px;
+            margin-top: 50px;
+            float: right;
+            border-radius: 10px;
+            width: 800px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            background: #F6B1A8D8;
+        }
+        #audio{
+            margin-right: 200px;
+            margin-top: 50px;
+            float: right;
+            width: 800px;
+        }
+        #video{
+            margin-top: 50px;
+            margin-right: 200px;
+            float: right;
+            width: 50%;
+            border: dashed 10px #C0392B;
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Джим Фрейд</title>
+</head>
+<body>
+<div id="top_bar">
+    <img id="logo" src="imgs/logo.png">
+    <ul id="zmist">
+        <li><a href="../htmllab1/lab1.html">На Головну</a></li>
+    </ul>
+</div>
+<img id="player2_img" src="imgs/player10.jpg">
+<div class="pl2_name">Джим Фрейд</div>
+<div class="pl2_bio">Воротар. Народився 27 вересня 1994р.(27 років) в Нідерландах. Ріст: 1,86м.</div>
+<audio id="audio" src="../htmllab1/imgs/fc_bazen.mp3" controls></audio>
+<video id="video" src="../htmllab1/imgs/fc_baze.mp4" controls></video>
+</body>
+</html>
